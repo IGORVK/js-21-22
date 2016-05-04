@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	
+	<title>JS1-2</title>
+	
+</head>
+<body>
+	<script >
+	    function involution (){
+	       
+	       var strNum = prompt('Введите число: ');
+	       var num = +strNum;
+	       var result = num;
+	       
+	       var strSt = prompt('Введите степень числа: ');
+	       var st = +strSt;
+	      
+           for (var i=1; i<st; i++){
+	           result *= num;
+	       }
+	       
+	       return result;
+	    }
+	    
+	    var equal = involution();
+	    
+	    console.log(equal);
+
+	    
+	</script>
+</body>
+</html>
